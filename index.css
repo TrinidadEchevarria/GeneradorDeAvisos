@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1F2632;     
+}
+
+.contenedorAvisos {
+    background-color: #323A49;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 35%;
+    height: 48%;
+    padding: 20px;
+    border-radius: 15px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.tituloAviso {
+    font-size: 14px;
+    text-align: center; 
+    text-transform: uppercase;
+    letter-spacing: 2.6px;
+    margin-top: 5%;
+    color: #52FFA8;
+}
+
+.textoAviso {
+    font-size: 28px;
+    color: white; 
+    text-align: center;
+    margin: 4.5%;
+}
+
+.divisorEscritorio {
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+}
+
+.botonDado {
+    position: absolute;
+    border-radius: 50%;
+    padding-top: 3.5%;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    padding-bottom: 3%;
+    background-color: #52FFA8;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: none;
+}
+
+.dinamico {
+    box-shadow: 0 0 20px 3px #52FFA8;
+}
