@@ -7,7 +7,7 @@ window.onload = function() {
             let id = data.slip.id;
             let advice = data.slip.advice;
             document.querySelector('.tituloAviso').innerHTML += id;
-            document.querySelector('.textoAviso').innerHTML = '"' + advice + '"';
+            document.querySelector('.textoAviso').innerHTML = '“' + advice + '”';
         })
         .catch(error => console.log(error))
 }
